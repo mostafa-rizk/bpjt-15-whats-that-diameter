@@ -11,4 +11,8 @@ public class Circle {
       return c;
    }
    public double radius;
+   public double diameter() {
+      double d = 2 * radius;
+      return d;
+   }
 }
